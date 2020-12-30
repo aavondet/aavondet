@@ -1,0 +1,36 @@
+{
+  "name": "aavondet",
+  "version": "0.0.1",
+  "description": "Portfolio site",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --host localhost --port 8080 --open",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aavondet/aavondet.git"
+  },
+  "author": "Arnaud Avondet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aavondet/aavondet/issues"
+  },
+  "homepage": "https://github.com/aavondet/aavondet#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
