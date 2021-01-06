@@ -32,11 +32,18 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]',
+        },
+      },
     ],
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: path.resolve(__dirname, 'src', 'index.html'),
+      template: path.resolve(__dirname, 'public', 'index.html'),
     }),
   ],
 };
