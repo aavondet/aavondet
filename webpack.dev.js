@@ -11,6 +11,7 @@ module.exports = merge(common, {
     compress: true,
     hot: true,
     open: true,
+    writeToDisk: true,
     before: function(app, server, compiler) {
       app.use(express.static(__dirname+'/build'));
       app.get('/*', function(req, res) {
