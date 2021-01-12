@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Home from './Home';
 import Work from './Work';
+import Projects from './Projects';
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,8 +20,8 @@ const Main = () => {
           <Route path='/work'>
             <Work/>
           </Route>
-          <Route path='/resume'>
-            Resume
+          <Route path='/projects'>
+            <Projects/>
           </Route>
         </Switch>
       </Router>

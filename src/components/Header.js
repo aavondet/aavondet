@@ -12,7 +12,7 @@ const Header = () => {
             <ul className='header-nav-list'>
                 <li><NavItem label='home' to='/' active={true}/></li>
                 <li><NavItem label='work' to='/work'/></li>
-                <li><NavItem label='resume' to='/redsume'/></li>
+                <li><NavItem label='projects' to='/projects'/></li>
             </ul>
         </nav>
     </div>
