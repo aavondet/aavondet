@@ -1,5 +1,6 @@
 import React from 'react';
-import Avatar from '../../public/avatar.png';
+import AvatarL from '../../public/avatar_large.png';
+import AvatarS from '../../public/avatar_small.png';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import IconButton from "@material-ui/core/IconButton";
@@ -30,7 +31,7 @@ const Home = () => {
 	return (
 		<Grid container>
 			<Grid item xs='12' md='6' className={classes.homeAvatar}>
-				<img src={Avatar}/>
+				<img src={AvatarL} srcSet={`${AvatarS} 300w, ${AvatarL} 1280w`} alt='Picture of Arnaud'/>
 			</Grid>
 			<Grid item xs='12' md='6' className={classes.homeParagraph}>
 				<p>
@@ -43,14 +44,18 @@ const Home = () => {
 				<IconButton
 					href='https://github.com/aavondet'
 					target='_blank'
-					className={classes.button}
+                    className={classes.button}
+                    alt='Open Twitter profile for aavondet_'
+                    rel='noopener'
 				>
 					<GitHubIcon fontSize='inherit'/>
 				</IconButton>
 				<IconButton
 					href='https://twitter.com/aavondet_'
 					target='_blank'
-					className={classes.button}
+                    className={classes.button}
+                    alt='Open Github profile for aavondet'
+                    rel='noopener'
 				>
 					<TwitterIcon fontSize='inherit'/>
 				</IconButton>

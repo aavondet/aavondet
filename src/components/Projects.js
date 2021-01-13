@@ -81,7 +81,8 @@ const Projects = () => {
 				<Card className={classes.card}>
 					<CardMedia
 						className={classes.media}
-						image={images[project.id]}
+                        image={images[project.id]}
+                        alt={project.alt}
 					/>
 					<CardContent className={classes.cardContent}>
 						<TextInfoContent
@@ -90,7 +91,7 @@ const Projects = () => {
 							heading={project.title}
 							body={project.description}
 						/>
-						<Button className={classes.button} target='_blank' href={project.link}>Github</Button>
+						<Button className={classes.button} target='_blank' href={project.link} rel='noopener'>Github</Button>
 					</CardContent>
 				</Card>
 			)}

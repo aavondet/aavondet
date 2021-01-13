@@ -1,5 +1,6 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 	output: {
@@ -42,6 +43,11 @@ module.exports = {
 		],
 	},
 	plugins: [
-		new CleanWebpackPlugin(),
+        new CleanWebpackPlugin(),
+        new CopyPlugin({
+            patterns:[
+                { from: 'robots.txt', to: 'robots.txt' },
+            ],
+        }),
 	],
 };

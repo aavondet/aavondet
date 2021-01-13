@@ -3,28 +3,32 @@
 		"id": 0,
 		"title": "D-Media",
 		"date": "06/2019",
-		"link": "https://github.com/decrypt-hackers/decrypt-vue",
+    "link": "https://github.com/decrypt-hackers/decrypt-vue",
+    "alt": "D Media logo",
 		"description": "A project I worked on during the Decrypt Tokyo Blockchain hackathon. Prototyped and pitched a decentralized peer-reviewed social media platform similar to Twitter, built with Vue JS, MongoDB, and a sidechain for the Ethereum blockchain, Ubiqys Kit. Won the Social Good award."
 	},
 	{
 		"id": 1,
 		"title": "Vue Lunch App",
 		"date": "05/2019",
-		"link": "https://github.com/aavondet/lunch-app",
+    "link": "https://github.com/aavondet/lunch-app",
+    "alt": "Vue Lunch logo",
 		"description": "Simple app that lets you post your plans for lunch to get others to join you, made in 2~3 days to learn Vue JS, express, and MongoDB, for my internship at Plaid."
 	},
 	{
 		"id": 2,
 		"title": "Bike PGH Project",
 		"date": "11/2018 - 04/2019",
-		"link": "https://github.com/aavondet/bikepgh-datascience",
+    "link": "https://github.com/aavondet/bikepgh-datascience",
+    "alt": "Bike Pittsburgh Data Science Project logo",
 		"description": "A project with Students Using Data for Social Good, doing data cleaning with R, as well as using GeoPandas and ArcGIS Online to create data visualizations using geolocation to gain insight into the OpenStreetsPGH event attendees and help reach a more diverse audience."
 	},
 	{
 		"id": 3,
 		"title": "Numberpedia",
 		"date": "09/2018",
-		"link": "https://github.com/aavondet/numberpedia",
+    "link": "https://github.com/aavondet/numberpedia",
+    "alt": "Numberpedia logo",
 		"description": "My first JS project that I coded for fun in a day during a weekend. Used anime.js to do some fun animations and tried to find fun facts about numbers to share!"
 	}
 ]
