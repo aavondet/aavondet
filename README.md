@@ -11,4 +11,4 @@ I'm an undergrad studying Math and CS at Carnegie Mellon University. In class I 
 📫 How to reach me: [Linkedin](https://www.linkedin.com/in/aavondet/) | [Twitter](https://twitter.com/aavondet_)
 
 
-🧑🏻‍💻 [Website](http://www.aavondet.xyz)
+🧑🏻‍💻 [Website](https://aavondet.herokuapp.com/)
