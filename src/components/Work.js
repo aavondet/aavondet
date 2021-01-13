@@ -11,45 +11,44 @@ import { makeStyles } from '@material-ui/core/styles';
 import jobs from '../jobs.json';
 
 const useStyles = makeStyles({
-  dot: {
-    padding: '10px',
+	dot: {
+    	padding: '10px',
 	},
 	company: {
-		fontSize: '20px'
+		fontSize: '20px',
 	},
 	title: {
 		fontSize: '20px',
-		fontStyle: 'italic'
+		fontStyle: 'italic',
 	},
 	date: {
-		fontSize: '20px'
+		fontSize: '20px',
 	},
 	description: {
 		fontSize: '16px',
-		paddingBottom: '20px'
+		paddingBottom: '20px',
 	},
 	timeline: {
 		width: '65%',
 		margin: 'auto',
-		paddingBottom: '50px'
-	}
+		paddingBottom: '50px',
+	},
 });
 
 const Work = () => {
 	const classes = useStyles();
-
-  return (
-    <Timeline classes={{root: classes.timeline}}>
+	return (
+		<Timeline classes={{root: classes.timeline}}>
 			{jobs.map((job) =>
 				<TimelineItem>
 					<TimelineOppositeContent classes={{root: classes.date}}>
-            {job.date}
-      		</TimelineOppositeContent>
-        	<TimelineSeparator>
-          	<TimelineDot variant='outlined' classes={{root: classes.dot}}/>
-          	<TimelineConnector />
-        	</TimelineSeparator>
-        	<TimelineContent>
+						{job.date}
+					</TimelineOppositeContent>
+					<TimelineSeparator>
+						<TimelineDot variant='outlined' classes={{root: classes.dot}}/>
+						<TimelineConnector />
+					</TimelineSeparator>
+					<TimelineContent>
 						<div className={classes.company}>{job.company}</div><br/>
 						<div className={classes.title}>{job.title}</div><br/>
 						<div className={classes.description}>{job.description}</div>
@@ -57,7 +56,7 @@ const Work = () => {
 				</TimelineItem>
 			)}
 		</Timeline>
-  );
+	);
 };
 
 export default Work;

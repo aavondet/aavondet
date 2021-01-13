@@ -11,7 +11,7 @@ app.use(favicon(path.join(__dirname,'public','favicon.ico')));
 app.use(express.static(__dirname+'/build'));
 
 app.get('/*', (req, res, next) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+	res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.listen(PORT);

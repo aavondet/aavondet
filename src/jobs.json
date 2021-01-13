@@ -1,38 +1,38 @@
 [
-  {
-    "company": "Facebook",
-    "title": "Software Engineer Intern",
-    "date": "06/2021 -",
-    "description": ""
-  },
-  {
-    "company": "Apple",
-    "title": "Software Engineer Intern",
-    "date": "06/2020 - 08/2020",
-    "description": "Designed and built an internal productivity web appication using Angular JS and Ruby with fellow interns"
-  },
-  {
-    "company": "Carnegie Mellon University",
-    "title": "19-303 TA",
-    "date": "01/2020 - 05/2020",
-    "description": "Teaching assistant for 'Cryptocurrencies, Blockchains, and Applications', a technical elective course on Bitcoin and blockchain technology"
-  },
-  {
-    "company": "Carnegie Mellon University",
-    "title": "21-127 TA",
-    "date": "01/2020 - 05/2020",
-    "description": "Teaching assistant for 'Concepts of Mathematics', an introductory course on mathematical proof writing taken by many CMU undergrad students"
-  },
-  {
-    "company": "Expii",
-    "title": "Intern",
-    "date": "09/2019 - 12/2019",
-    "description": "Worked on the 'Daily Challenge with Po-Shen Loh' team, writing exercise problems about probability and number theory, as well as filming and editting lesson videos"
-  },
-  {
-    "company": "Plaid",
-    "title": "Developer Intern",
-    "date": "05/2019 - 08/2019",
-    "description": "Part of the frontend team and the i18n team, worked on seeveral UI reforms as well as refactoring existing code to support localiczation"
-  }
+	{
+		"company": "Facebook",
+		"title": "Software Engineer Intern",
+		"date": "06/2021 -",
+		"description": ""
+	},
+	{
+		"company": "Apple",
+		"title": "Software Engineer Intern",
+		"date": "06/2020 - 08/2020",
+		"description": "Designed and built an internal productivity web appication using Angular JS and Ruby with fellow interns"
+	},
+	{
+		"company": "Carnegie Mellon University",
+		"title": "19-303 TA",
+		"date": "01/2020 - 05/2020",
+		"description": "Teaching assistant for 'Cryptocurrencies, Blockchains, and Applications', a technical elective course on Bitcoin and blockchain technology"
+	},
+	{
+		"company": "Carnegie Mellon University",
+		"title": "21-127 TA",
+		"date": "01/2020 - 05/2020",
+		"description": "Teaching assistant for 'Concepts of Mathematics', an introductory course on mathematical proof writing taken by many CMU undergrad students"
+	},
+	{
+		"company": "Expii",
+		"title": "Intern",
+		"date": "09/2019 - 12/2019",
+		"description": "Worked on the 'Daily Challenge with Po-Shen Loh' team, writing exercise problems about probability and number theory, as well as filming and editting lesson videos"
+	},
+	{
+		"company": "Plaid",
+		"title": "Developer Intern",
+		"date": "05/2019 - 08/2019",
+		"description": "Part of the frontend team and the i18n team, worked on seeveral UI reforms as well as refactoring existing code to support localiczation"
+	}
 ]
