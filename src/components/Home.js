@@ -12,12 +12,21 @@ const useStyles = makeStyles(({ breakpoints }) => ({
 		fontSize: '24px',
 		margin: 'auto',
 		[breakpoints.down('sm')]: {
-			textAlign: 'center',
+            textAlign: 'center',
+            fontSize: '16px',
 		},
 	},
-	homeAvatar: {
+	homeAvatarContainer: {
 		maxWidth: '100%',
-		textAlign: 'center',
+        textAlign: 'center',
+    },
+    homeAvatar: {
+        width: '400px',
+        height: '400px',
+        [breakpoints.down('sm')]: {
+            width: '200px',
+            height: '200px',
+		},
 	},
 	button: {
 		color: 'white',
@@ -30,8 +39,8 @@ const Home = () => {
 	const classes = useStyles();
 	return (
 		<Grid container>
-			<Grid item xs='12' md='6' className={classes.homeAvatar}>
-				<img src={AvatarL} srcSet={`${AvatarS} 300w, ${AvatarL} 1280w`} alt='Picture of Arnaud'/>
+			<Grid item xs='12' md='6' className={classes.homeAvatarContainer}>
+				<img className={classes.homeAvatar} src={AvatarL} srcSet={`${AvatarS} 300w, ${AvatarL} 1280w`} alt='Picture of Arnaud'/>
 			</Grid>
 			<Grid item xs='12' md='6' className={classes.homeParagraph}>
 				<p>
