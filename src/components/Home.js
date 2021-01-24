@@ -39,10 +39,10 @@ const Home = () => {
 	const classes = useStyles();
 	return (
 		<Grid container>
-			<Grid item xs='12' md='6' className={classes.homeAvatarContainer}>
+			<Grid item xs={12} md={6} className={classes.homeAvatarContainer}>
 				<img className={classes.homeAvatar} src={AvatarL} srcSet={`${AvatarS} 300w, ${AvatarL} 1280w`} alt='Picture of Arnaud'/>
 			</Grid>
-			<Grid item xs='12' md='6' className={classes.homeParagraph}>
+			<Grid item xs={12} md={6} className={classes.homeParagraph}>
 				<p>
 				Hello!<br/>
 				My name is Arnaud, I’m an undergrad<br/>

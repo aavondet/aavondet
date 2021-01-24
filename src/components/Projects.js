@@ -32,7 +32,7 @@ const useStyles = makeStyles(({ breakpoints, spacing }) => ({
 		},
 	},
 	card: {
-		margin: '60px auto',
+		margin: '60px',
 		color: 'white',
 		backgroundColor: '#272E47',
 		borderRadius: spacing(2), // 16px
@@ -40,7 +40,6 @@ const useStyles = makeStyles(({ breakpoints, spacing }) => ({
 		boxShadow: '0px 14px 80px rgba(34, 35, 58, 0.2)',
 		position: 'relative',
 		maxWidth: 600,
-		marginLeft: 'auto',
 		borderWidth: '1px',
 		borderStyle: 'solid',
 		overflow: 'initial',
@@ -48,14 +47,20 @@ const useStyles = makeStyles(({ breakpoints, spacing }) => ({
 		display: 'flex',
 		flexDirection: 'column',
 		alignItems: 'center',
-		paddingBottom: spacing(2),
-		[breakpoints.up('md')]: {
+        paddingBottom: spacing(2),
+        [breakpoints.up('sm')]: {
+            margin: '60px auto',
+		},
+        [breakpoints.up('md')]: {
 			flexDirection: 'row',
-			paddingTop: spacing(2),
+            paddingTop: spacing(2),
 		},
 	},
 	cardContent: {
-		width: '40%',
+        width: '40%',
+        [breakpoints.down('sm')]: {
+			width: '80%',
+		},
 	},
 	button: {
 		backgroundColor: 'Transparent',
@@ -77,8 +82,8 @@ const Projects = () => {
 	const contentClasses = useProjectTextInfoContentStyles();
 	return (
 		<>
-			{projects.map((project) => 
-				<Card className={classes.card}>
+			{projects.map((project, i) => 
+				<Card className={classes.card} key={i}>
 					<CardMedia
 						className={classes.media}
                         image={images[project.id]}

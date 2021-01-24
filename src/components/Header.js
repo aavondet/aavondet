@@ -55,10 +55,10 @@ const Header = () => {
 	const classes = useStyles();
 	return (
 		<Grid container className={classes.gridContainer}>
-            <Grid item xs='12' md='6'>
+            <Grid item xs={12} md={6}>
                 <h1 className={classes.headerTitle}><a href='/'>aavondet</a></h1>
             </Grid>
-            <Grid item xs='12' md='6'>
+            <Grid item xs={12} md={6}>
                 <nav>
                     <ul className={classes.headerNavList}>
                         <li><NavItem label='home' to='/' active={true}/></li>

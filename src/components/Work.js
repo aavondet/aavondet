@@ -10,9 +10,12 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import jobs from '../jobs.json';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(({ breakpoints }) => ({
 	dot: {
-    	padding: '10px',
+        padding: '10px',
+        [breakpoints.down('sm')]: {
+            padding: '5px',
+		},
 	},
 	company: {
 		fontSize: '20px',
@@ -22,25 +25,33 @@ const useStyles = makeStyles({
 		fontStyle: 'italic',
 	},
 	date: {
-		fontSize: '20px',
+        fontSize: '20px',
+        [breakpoints.down('sm')]: {
+            fontSize: '0px',
+            flex: 0,
+		},
 	},
 	description: {
 		fontSize: '16px',
-		paddingBottom: '20px',
+        paddingBottom: '20px',
+        [breakpoints.down('sm')]: {
+            fontSize: '0px',
+		},
 	},
 	timeline: {
 		width: '65%',
 		margin: 'auto',
 		paddingBottom: '50px',
-	},
-});
+    },
+}));
 
 const Work = () => {
-	const classes = useStyles();
+    const classes = useStyles();
+
 	return (
 		<Timeline classes={{root: classes.timeline}}>
-			{jobs.map((job) =>
-				<TimelineItem>
+			{jobs.map((job, i) =>
+				<TimelineItem key={i}>
 					<TimelineOppositeContent classes={{root: classes.date}}>
 						{job.date}
 					</TimelineOppositeContent>
