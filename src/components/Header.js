@@ -56,14 +56,14 @@ const Header = () => {
 	return (
 		<Grid container className={classes.gridContainer}>
             <Grid item xs={12} md={6}>
-                <h1 className={classes.headerTitle}><a href='/'>aavondet</a></h1>
+                <h1 className={classes.headerTitle}><a href='/user/aavondet/'>aavondet</a></h1>
             </Grid>
             <Grid item xs={12} md={6}>
                 <nav>
                     <ul className={classes.headerNavList}>
-                        <li><NavItem label='home' to='/' active={true}/></li>
-                        <li><NavItem label='work' to='/work'/></li>
-                        <li><NavItem label='projects' to='/projects'/></li>
+                        <li><NavItem label='home' to='/user/aavondet/' active={true}/></li>
+                        <li><NavItem label='work' to='/user/aavondet/work'/></li>
+                        <li><NavItem label='projects' to='/user/aavondet/projects'/></li>
                     </ul>
                 </nav>
             </Grid>
