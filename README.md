@@ -6,7 +6,7 @@ I'm an undergrad studying Math and CS at Carnegie Mellon University. In class I 
 
 🌱 Currently learning React 
 
-▶️ Incoming Software Engineer Intern @Facebook
+▶️ Software Engineer Intern @Facebook
 
 📫 How to reach me: [Linkedin](https://www.linkedin.com/in/aavondet/) | [Twitter](https://twitter.com/aavondet_)
 
