@@ -14,13 +14,13 @@ const Main = () => {
     	<Router>
 			<Header/>
 			<Switch>
-			<Route exact path='/'>
+			<Route exact path='/user/aavondet/'>
 				<Home/>
 			</Route>
-			<Route path='/work'>
+			<Route path='/user/aavondet/work'>
 				<Work/>
 			</Route>
-			<Route path='/projects'>
+			<Route path='/user/aavondet/projects'>
 				<Projects/>
 			</Route>
 			</Switch>
