@@ -4,11 +4,10 @@
 
 I'm an undergrad studying Math and CS at Carnegie Mellon University. In class I love writing mathematical proofs, in my free time I am a web developer who enjoys designing and writing frontend code. I also have been following the blockchain industry closely for the past two years and am excited for the web3.0 revolution! 
 
-🌱 Currently learning React 
+🌱 Currently learning Golang 
 
-▶️ Software Engineer Intern @Facebook
+▶️ Incoming Software Engineer @Facebook
 
-📫 How to reach me: [Linkedin](https://www.linkedin.com/in/aavondet/) | [Twitter](https://twitter.com/aavondet_)
-
+📫 How to reach me: [Linkedin](https://www.linkedin.com/in/aavondet/)
 
 🧑🏻‍💻 [Website](https://www.andrew.cmu.edu/user/aavondet/)
