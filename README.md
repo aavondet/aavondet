@@ -4,9 +4,7 @@
 
 I'm an undergrad studying Math and CS at Carnegie Mellon University. In class I love writing mathematical proofs, in my free time I am a web developer who enjoys designing and writing frontend code. I also have been following the blockchain industry closely for the past two years and am excited for the web3.0 revolution! 
 
-🌱 Currently learning Golang 
-
-▶️ Incoming Software Engineer @Facebook
+▶️ Software Engineer @Facebook
 
 📫 How to reach me: [Linkedin](https://www.linkedin.com/in/aavondet/)
 
