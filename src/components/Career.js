@@ -45,7 +45,7 @@ const useStyles = makeStyles(({ breakpoints }) => ({
     },
 }));
 
-const Work = () => {
+const Career = () => {
     const classes = useStyles();
 
 	return (
@@ -70,4 +70,4 @@ const Work = () => {
 	);
 };
 
-export default Work;
+export default Career;

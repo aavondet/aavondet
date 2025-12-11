@@ -62,7 +62,7 @@ const Header = () => {
                 <nav>
                     <ul className={classes.headerNavList}>
                         <li><NavItem label='home' to='/user/aavondet/' active={true}/></li>
-                        <li><NavItem label='work' to='/user/aavondet/work'/></li>
+                        <li><NavItem label='career' to='/user/aavondet/career'/></li>
                         <li><NavItem label='projects' to='/user/aavondet/projects'/></li>
                     </ul>
                 </nav>
