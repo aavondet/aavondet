@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Home from './Home';
-import Work from './Work';
+import Career from './Career';
 import Projects from './Projects';
 import {
 	BrowserRouter as Router,
@@ -17,8 +17,8 @@ const Main = () => {
 			<Route exact path='/user/aavondet/'>
 				<Home/>
 			</Route>
-			<Route path='/user/aavondet/work'>
-				<Work/>
+			<Route path='/user/aavondet/career'>
+				<Career/>
 			</Route>
 			<Route path='/user/aavondet/projects'>
 				<Projects/>
